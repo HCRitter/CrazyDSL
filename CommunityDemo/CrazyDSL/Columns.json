@@ -1,0 +1,47 @@
+{
+  "Tables": [
+    {
+      "Name": "SecurityEvent",
+      "Columns": [
+        "EventID",
+        "TimeGenerated",
+        "Computer",
+        "Account",
+        "LogonType",
+        "ProcessName"
+      ]
+    },
+    {
+      "Name": "Syslog",
+      "Columns": [
+        "SyslogMessage",
+        "Facility",
+        "Severity",
+        "HostName",
+        "TimeGenerated"
+      ]
+    },
+    {
+      "Name": "AzureActivity",
+      "Columns": [
+        "ActivityId",
+        "Caller",
+        "OperationName",
+        "ResourceGroup",
+        "ResourceId",
+        "TimeGenerated"
+      ]
+    },
+    {
+      "Name": "Heartbeat",
+      "Columns": [
+        "Computer",
+        "OSName",
+        "OSType",
+        "TimeGenerated",
+        "IPAddresses",
+        "Version"
+      ]
+    }
+  ]
+}
