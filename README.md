@@ -42,3 +42,4 @@ The idea is to capture information during static analysis and reuse it to drive 
 - This is a PoC — expect rough edges.
 - Relies on ScriptAnalyzer being executed (manually or via editor integration).
 - No actual command execution is required to drive IntelliSense.
+  
